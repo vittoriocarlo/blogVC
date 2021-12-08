@@ -1,0 +1,201 @@
+/*Home*/
+
+@media screen and (max-width: 980px) {
+ .contenedor-nav ul {
+   display: block;
+ }
+
+
+ /* click js*/
+ .navegacion.activo {
+   left: 0;
+ }
+
+ .icon-button {
+   display: block;
+   cursor: pointer;
+ }
+
+ .navegacion { 
+   position: absolute;
+   width: 100%;
+   left: -100%;
+   display: block;
+   background-color: #f1f1f1;
+   z-index: 3;
+   height: 100vh;
+   transition: 1s all ease;
+ }
+
+
+ .navegacion ul li {
+   padding: 20px;
+   border-bottom: 2px solid #E1E1E1;
+ }
+
+ .navegacion a {
+   color: #422828;
+   border-bottom:1px solid #f1f1f1;
+ }
+ .info-fondo h1 {
+   font-size: 28px;
+ }
+ .contenedor-principal {
+   padding:30px;
+ }  
+
+ .contenedor-principal .info-guia {
+   font-size: 22px;
+ }
+
+ .articulo-secundario h3, p {
+   font-size: 12px;
+ }
+ 
+}
+
+@media screen and (max-width: 920px) {
+  .formulario-info {
+    flex-direction: column;
+    text-align: center  ;
+  }
+
+  .contenedor-aboutMe {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media screen and (max-width:780px) {
+  .contenedor-fondo {
+    background-size: 100% 100%;
+    height: 600px;
+  }
+
+  .contenedor-post h2 {
+    font-size: 20px;
+  }
+  .contenedor-post p {
+    font-size: 14px;
+  }
+
+  .contenedor-blogInfo h2 {
+    font-size: 20px;
+  }
+  .contenedor-blogInfo h3 {
+    font-size: 18px;
+  }
+
+}
+
+
+@media screen and (max-width:720px) {
+  .contenedor-articulos {
+    flex-direction: column;
+  }
+
+  .articulos {
+    margin: 10px auto;
+  }
+  
+  .secundario-1 h2 {
+    font-size: 18px;
+  }
+  .secundario-2 p {
+    font-size: 14px;
+  }
+
+  .contenedor-subPost {
+    flex-direction: column;
+  }
+
+  .post-info {
+    padding:20px 0;
+  }
+
+  .contenedor-blogPost {
+    width: 100%;
+    padding:25px 25px;
+  }
+
+}
+
+@media screen and (max-width: 560px) {
+  .formulario-envio input {
+    width: 100%;
+  }
+
+  .formulario-envio .form-name, .formulario-envio .form-email, .formulario-envio .btn-boton {
+    margin:6px 0;
+  }
+
+  .formulario-info {
+    padding-right: 12px;
+    padding-left: 12px;
+  }
+
+  .contenedor-post {
+    padding: 0 10px;
+  }
+
+  .contenedor-subPost {
+    width: 100%;
+  }
+
+  .contenedor-post h2 {
+    font-size: 16px;
+  }
+  .contenedor-footer{
+    padding:50px 15px;
+  }
+
+  .footer-secciones {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .footer-secciones .footer-espacio {
+    width: 100%;
+    margin:0;
+    padding:12px 0;
+  }
+
+  .copyright {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .copyright-info {
+    padding:8px 0;
+  }
+
+  .footer-espacio h3 {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .contenedor-fondo {
+    height: 400px;
+  }
+  
+  .info-fondo h1 {
+    font-size: 24px;
+  }
+  .info-fondo {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .contenedor-blogImage img {
+    height: 200px;
+  }
+
+  .contenedor-blogInfo h2 {
+    font-size: 17px;
+  }
+  .contenedor-blogInfo h3 {
+    font-size: 15px;
+  }
+  
+}

@@ -1,0 +1,103 @@
+:root {
+  --blanco: #F2F2F2;
+  --gris: #e1e1e1;
+  --rojoVino: #E42B64;
+  --parrafo: #646086;
+  --oscuro : rgb(71,71,71);
+  --azulMarino: #67A7DB;
+  --negro: #282828;
+  --letraSmall: #776F65;
+}
+
+.contenedor-contacto {
+  padding:60px 10px;
+}
+
+.contactoInfo h2 {
+  margin-bottom: 20px;
+  color: var(--oscuro);
+  text-transform: uppercase;
+  font-size: 20px;
+}
+.contactoInfo p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+
+.contacto-formulario {
+  margin-top: 20px;
+}
+
+.contacto-formulario input {
+  padding: 10px 15px;
+  border:1px solid #e1e1e1;
+  border-width: 2px;
+  margin-bottom: 12px;
+  outline: 0 none;
+}
+
+
+.contacto-formulario .btn-contacto {
+ padding:13px 25px;
+ text-transform: uppercase;
+ font-size: 10px;
+ cursor: pointer;
+ border:none;
+ background-color: var(--rojoVino);
+ color:var(--blanco);
+ font-weight: 600;
+}
+.formulario-boton {
+  margin-top: 20px;
+}
+
+
+.contacto-formulario textarea {
+  border:1px solid #e1e1e1;
+  border-width: 2px;
+  min-height: 100px;
+  resize: none;
+  outline: 0 none;
+  padding: 10px 15px;
+}
+
+.contacto-formulario .contacto-nombre:focus, .contacto-email:focus,
+.contacto-tema:focus, .txt-textarea:focus {
+  border-color: var(--rojoVino);
+}
+
+.form-info label {
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: 700;
+  color: var(--negro);
+  margin-bottom: 10px;
+} 
+
+.contenedor-subContacto {
+  display: flex;
+  width: 700px;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: column;
+}
+
+.contacto-formulario form {
+  display: flex;
+  flex-direction: column;
+}
+
+
+/*Boton */
+
+.icon-button {
+  width: 50px;
+  height: 50px;
+  color: var(--blanco);
+  display: none;
+  font-size: 24px;
+  line-height: 50px;
+  text-align: center;
+}
