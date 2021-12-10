@@ -1,4 +1,4 @@
-//Obtenemos los ID 
+//Obtenemos los ID
 
 let botonBurguer = document.getElementById('button-nav');
 let navegacion = document.querySelector('.navegacion');
@@ -15,16 +15,32 @@ botonBurguer.addEventListener('click', function() {
   } else {
     navegacion.classList.add('activo');
   }
-  
+
 })
 
-//Agregando el estilo con Js
-botonBurguer.style.cssText = "transition: .5s all ease; left: 0";
 
-function dataSet() {
-  this.navegacion = navegacion;
-  this.botonBurguer = botonBurguer;
-}
+
+//Obetenemos el valor por selector
+let animado = document.querySelectorAll('.animadoScroll');
+
+  function scroll() {
+    //Calculamos la altura
+    let altura = document.documentElement.scrollTop;
+
+    //Recorremos la cantidad de elementos que contiene
+    for(let i = 0; i < animado.length; i++) {
+      let efectoAnimado = animado[i].offsetTop;
+
+      if(efectoAnimado - 400 < altura) {
+        animado[i].classList.add('mostrar');
+      }
+    }
+  }
+
+  //Llamamos al evento scroll
+  window.addEventListener('scroll', scroll);
+
+
 
 
 

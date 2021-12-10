@@ -270,7 +270,7 @@ body {
 .secundario-boton a:hover {
   border:2px solid var(--rojoVino);
   transition: .3s all;
-  
+
 }
 
 
@@ -342,7 +342,7 @@ body {
 }
 
 .formulario-info {
-  background-color:#345580; 
+  background-color:#345580;
   display: flex;
   padding-top:30px;
   padding-bottom:30px;
@@ -382,7 +382,7 @@ body {
   color:var(--blanco);
   border-color: var(--rojoVino);
   cursor: pointer;
-} 
+}
 /* Contenedor formulario*/
 
 /* Footer */
@@ -498,5 +498,28 @@ body {
     transform: rotate(360deg);
   }
 }
+
+
+
+@keyframes animado {
+  0% {
+    transform: translateY(100px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.animadoScroll {
+  opacity: 0;
+}
+
+.mostrar {
+  animation: animado 1s;
+  opacity: 1;
+  transition: 1s all ease;
+}
+
 
 
