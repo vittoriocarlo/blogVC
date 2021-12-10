@@ -92,6 +92,15 @@ body {
   color: var(--blanco);
 }
 
+.efectoTexto {
+  font-family: italic;
+}
+
+.typedEfect {
+  font-weight: bold;
+  color:var(--rojoVino);
+}
+
 .contenedor-boton .info-boton {
   font-size: 10px;
   font-family: "Montserrat", sans-serif;

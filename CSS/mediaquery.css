@@ -16,7 +16,7 @@
    cursor: pointer;
  }
 
- .navegacion { 
+ .navegacion {
    position: absolute;
    width: 100%;
    left: -100%;
@@ -42,7 +42,7 @@
  }
  .contenedor-principal {
    padding:30px;
- }  
+ }
 
  .contenedor-principal .info-guia {
    font-size: 22px;
@@ -51,7 +51,7 @@
  .articulo-secundario h3, p {
    font-size: 12px;
  }
- 
+
 }
 
 @media screen and (max-width: 920px) {
@@ -97,7 +97,7 @@
   .articulos {
     margin: 10px auto;
   }
-  
+
   .secundario-1 h2 {
     font-size: 18px;
   }
@@ -178,13 +178,13 @@
   .contenedor-fondo {
     height: 400px;
   }
-  
+
   .info-fondo h1 {
-    font-size: 24px;
+    font-size: 21px;
   }
   .info-fondo {
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
   }
 
   .contenedor-blogImage img {
@@ -197,5 +197,5 @@
   .contenedor-blogInfo h3 {
     font-size: 15px;
   }
-  
+
 }
